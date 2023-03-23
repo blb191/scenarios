@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "print"
+cat ~/.python_history | grep "print"

@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "operation"
+cat ~/.python_history | grep "operation"

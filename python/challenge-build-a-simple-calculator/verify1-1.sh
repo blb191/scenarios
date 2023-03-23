@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "python"
+cat ~/.python_history | grep "python"

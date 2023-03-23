@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "elif"
+cat ~/.python_history | grep "elif"

@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "isdigit"
+cat ~/.python_history | grep "isdigit"

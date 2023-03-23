@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "simple_calculator()"
+cat ~/.zsh_history | grep "def"

@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "def"
+cat ~/.zsh_history | grep "operation"

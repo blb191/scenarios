@@ -17,16 +17,10 @@
             "timeout": 0,
             "showstderr": false
           },
-          {
-            "name": "Please create a simple_calculator function",
-            "file": "verify1-2.sh",
-            "hint": "Please define a function named simple_calculator",
-            "timeout": 0,
-            "showstderr": false
-          },
+          
           {
             "name": "Please get user input",
-            "file": "verify1-3.sh",
+            "file": "verify1-2.sh",
             "hint": "Please enter the correct code with input() to get user input",
             "timeout": 0,
             "showstderr": false

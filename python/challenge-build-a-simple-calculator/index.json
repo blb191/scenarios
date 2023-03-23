@@ -17,7 +17,6 @@
             "timeout": 0,
             "showstderr": false
           },
-          
           {
             "name": "Please get user input",
             "file": "verify1-2.sh",
@@ -27,9 +26,7 @@
           }
         ],
         "skills": [
-          "python/function_basic",
-        "python/math_operator",
-        "python/input"
+          "python/function_basic","python/math_operator","python/input"
          ]
       },
       {
@@ -94,8 +91,9 @@
     "assets": {
       "host01": [
         {
-          "file": "",
-          "target": "/tmp"
+          "file": "calculator_unittest.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
         }
       ]
     }

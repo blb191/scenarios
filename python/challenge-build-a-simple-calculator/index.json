@@ -1,7 +1,7 @@
 {
   "type": "challenge",
   "title": "Build a Simple Calculator",
-  "description": "A sentence or two",
+  "description": "In this challenge, you will build a simple calculator that can perform basic arithmetic operations. The calculator will prompt the user to enter two numbers and an operation (+, -, *, or /), and then display the result.",
   "difficulty": "Beginner",
   "time": 20,
   "details": {

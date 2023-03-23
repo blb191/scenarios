@@ -1,0 +1,112 @@
+{
+  "type": "challenge",
+  "title": "Build a Simple Calculator",
+  "description": "A sentence or two",
+  "difficulty": "Beginner",
+  "time": 20,
+  "details": {
+    "steps": [
+      {
+        "title": "Get User Input",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Please open the terminal and Python interpreter",
+            "file": "verify1-1.sh",
+            "hint": "Type python3 in the terminal",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please create a simple_calculator function",
+            "file": "verify1-2.sh",
+            "hint": "Please define a function named simple_calculator",
+            "timeout": 0,
+            "showstderr": false
+          },
+          {
+            "name": "Please get user input",
+            "file": "verify1-3.sh",
+            "hint": "Please enter the correct code with input() to get user input",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/function_basic",
+        "python/math_operator",
+        "python/input"
+         ]
+      },
+      {
+        "title": "Validate User Input",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Please validate User Input",
+            "file": "verify2.sh",
+            "hint": "Please use `isdigit()` method to check if a string contains only digits",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/if_else",
+          "python/math_operator",
+          "python/data_types"
+        ]
+      },
+      {
+        "title": "Perform the Calculation",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "Please perform the Calculation",
+            "file": "verify3.sh",
+            "hint": "Please perform the calculation by entering the code with conditional statement",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/if_else",
+          "python/data_types"
+        ]
+      },
+      {
+        "title": "Display the Result",
+        "text": "step4.md",
+        "verify": [
+          {
+            "name": "Please display the result",
+            "file": "verify4.sh",
+            "hint": "Please display the result by entering the code with print()",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/print"
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "",
+          "target": "/tmp"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "vnc-ubuntu:2204"
+  }
+}
